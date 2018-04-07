@@ -1,0 +1,4 @@
+# Before we run the actual MapReduce job, we must first copy the files from our local file system to Hadoop’s HDFS.
+
+fpath_data = "/home/eolus/Desktop/Dauphine/bigdata/tfidf/data/16713-8.txt"
+hdfs dfs -ls '/home/eolus/Desktop/Dauphine/bigdata/tfidf/data/16713-8.txt'
