@@ -1,3 +1,18 @@
+
+# Make scripts executable
+
+chmod +x "/home/eolus/Desktop/Dauphine/bigdata/tfidf/hadoop/deploy_tf.sh
+chmod +x "/home/eolus/Desktop/Dauphine/bigdata/tfidf/hadoop/deploy_df.sh
+chmod +x "/home/eolus/Desktop/Dauphine/bigdata/tfidf/hadoop/deploy_tfidf.sh
+
+
+# Delete any existing documents
+
+
+# Load documents from weburls
+
+
+
 # Before we run the actual MapReduce job, we must first copy the files from our local file system to Hadoop’s HDFS.
 
 fpath_data = "/home/eolus/Desktop/Dauphine/bigdata/tfidf/data/16713-8.txt"

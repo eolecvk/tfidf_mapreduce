@@ -4,6 +4,8 @@ FPATH_TFIDF_REDUCER='/home/eolus/Desktop/Dauphine/bigdata/tfidf/hadoop/tfidf_red
 FPATH_INPUT='/tmp/tfdf_data_0'
 FPATH_OUTPUT='/tmp/tfidf_data_0'
 
+rm -rf $FPATH_OUTPUT
+
 /usr/local/hadoop/bin/hadoop jar \
      $FPATH_HDJAR \
      -mapper $FPATH_TFIDF_MAPPER -reducer $FPATH_TFIDF_REDUCER \
